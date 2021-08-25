@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    max-height: 800px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+button {
+    display: block;
+}
+
+input,
+textarea {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
